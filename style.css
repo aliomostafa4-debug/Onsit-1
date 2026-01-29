@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+    height: 100vh;
+}
+nav{
+    background-color: #f0efef;
+    color: #fff;
+    padding: 10px 0;
+}
+nav img{
+    width: 30px;
+    margin-left: 50px;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+
+}
+main h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    top: -490px;
+}
+main hr{
+    width: 400px;
+    border: 1px solid #5146e6;
+    margin: 10px auto;
+    position: relative;
+    z-index: 1;
+    top: -490px;
+}
+main p{
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    top: -480px;
+}
+main .btn{
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #5146e6;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    top: -490px;
+    transition: all 0.3s ease;
+}
+main .btn:hover{
+    background-color: #5146e6;
+}
+main .material-symbols-outlined{
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: -350px;
+    cursor: pointer;
+}
+.articl{
+    position: relative;
+    z-index: 1;
+    top: -325px;
+    background-color: #eee;
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+.articl h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+}
+.articl p{
+    width: 77%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 30px;
+    color: gray;
+}
+.articl2{
+    position: relative;
+    top: -280px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    margin: 0px auto;
+    text-align: center;
+}
+.articl2 img{
+    width: 100px;
+    margin: 0 px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+.articl2 .img{
+    float: right;
+    width: 400px;
+
+}
+.articl2 .img h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+}
+.articl2 .img p{
+    width: 92%;
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+    line-height: 30px;
+}
+
+.articl3{
+    position: relative;
+    top: -250px;
+    background-color: #eee;
+    padding: 50px 20px;
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+.articl3 h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+}
+.articl3 p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 30px;
+    color: gray;
+}
+.articl3 img{
+    width: 350px;
+    margin: 10px;
+
+}
+
+.contact-us {
+  position: relative;
+  top: -250px;
+  color: white;
+  text-align: center;
+}
+.contact-us img{
+    width: 100%;
+    z-index: 0;
+}
+.contact-us .container{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.7));
+    z-index: 1;
+}
+
+.contact-us .container h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.contact-us .container p{
+    width: 60%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 30px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.contact-us .container .input-box{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.contact-us .container .input-box  #name,
+.contact-us .container .input-box input[type="email"]{
+    width: 58%;
+    padding: 15px;
+    margin: 10px 1%;
+    border: 1px solid gray;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.contact-us .container .input-box  #mas{
+    width: 58%;
+    height: 120px;
+    padding: 15px;
+    margin: 10px 1%;
+    border: 1px solid gray;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.contact-us .container .input-box  #btn,
+.contact-us .container .input-box  .label{
+    position: relative;
+    left: -90px;
+}
+.contact-us .container .input-box  input[type="submit"]{
+    position: relative;
+    left: 90px;
+    padding: 10px 30px;
+    font-size: 17px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #5146e6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact-us .container .input-box  input[type="submit"]:hover{
+    background-color: #5146e6;
+}
+footer{
+    background-color: #cfcece;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top: -255px;
+    text-align: left;
+    padding: 20px 60px;
+}
